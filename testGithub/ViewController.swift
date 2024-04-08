@@ -14,10 +14,11 @@ class ViewController: UIViewController {
         
         // Set background color to white
         view.backgroundColor = .white
+        title = "My title"
         
         // Add a title
         let titleLabel = UILabel()
-        titleLabel.text = "My Title 1"
+        titleLabel.text = "My Label"
         titleLabel.textAlignment = .center
         titleLabel.font = UIFont.boldSystemFont(ofSize: 20)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
