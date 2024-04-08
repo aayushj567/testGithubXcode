@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         // Add a title
         let titleLabel = UILabel()
-        titleLabel.text = "My Title"
+        titleLabel.text = "My Title 1"
         titleLabel.textAlignment = .center
         titleLabel.font = UIFont.boldSystemFont(ofSize: 20)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
